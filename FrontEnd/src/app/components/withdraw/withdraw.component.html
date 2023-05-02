@@ -1,0 +1,26 @@
+
+
+<div class="container">
+    <div class="card">
+      <form (ngSubmit)="doSubmitForm()">
+        <mat-icon  class="center-icon my-icon" aria-hidden="false" aria-label="Example createAccount icon" fontIcon="credit_card"></mat-icon>
+        <span><h3 class="field" >Withdraw</h3></span>
+        <mat-form-field class="field" appearance="fill">
+            <mat-label>Account Number</mat-label>
+            <input name="accountNumber" [(ngModel)]="data.accountNumber" matInput>
+          </mat-form-field><br>
+          <mat-form-field class="field" appearance="fill">
+            <mat-label>Amount Withdraw</mat-label>
+            <input name="balance" [(ngModel)]="data.balance" matInput type="number"  placeholder="0">
+            <span matTextPrefix>$&nbsp;</span>
+            <span matTextSuffix>.00</span>
+          </mat-form-field><br>
+          <button type="submit" mat-raised-button class="field" color="accent" (click)="btnclick()" >Withdraw</button>&nbsp;
+          <button  class="center-icon" mat-fab color="accent" aria-label="Example icon button with a home icon" [routerLink]="['/home']" routerLinkActive="router-link-active">
+            <mat-icon>home</mat-icon>
+          </button>
+        </form>
+
+    </div>
+</div>
+

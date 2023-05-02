@@ -1,0 +1,37 @@
+
+
+<div class="container">
+    <div class="card">
+        <form (ngSubmit)="doSubmitForm()">
+        <mat-icon  class="center-icon my-icon" aria-hidden="false" aria-label="Example createAccount icon" fontIcon="account_balance_wallet"></mat-icon>
+        <span><h3 class="field" >View Balance</h3></span>
+        <mat-form-field class="field" appearance="fill">
+            <mat-label>Account Number</mat-label>
+            <input name="accountNumber" [(ngModel)]="data.accountNumber" matInput>
+          </mat-form-field><br>
+          <button type="submit" mat-raised-button class="field" color="accent" (click)="btnclick()" >View</button>&nbsp;
+          <button  class="center-icon" mat-fab color="accent" aria-label="Example icon button with a home icon" [routerLink]="['/home']" routerLinkActive="router-link-active">
+            <mat-icon>home</mat-icon>
+          </button>
+        </form>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Account Number</th>
+              <th>Customer Name</th>
+              <th>Balance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{accountNumber}}</td>
+              <td>{{customerName}}</td>
+              <td>{{balance}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+    </div>
+</div>
+

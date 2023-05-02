@@ -1,0 +1,39 @@
+.field{
+    width:300px;
+}
+
+.card{
+    width: 60px;
+    margin-left: 500px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+/* .container{
+    background-image: url("../../../assets/delete.jpg");
+    background-size: cover;
+    
+}  */
+
+.center-icon {
+    
+    margin-left:120px;
+  }
+
+  .my-icon {
+  font-size: 26px;
+}
+.container {
+    background: url('../../../assets/delete.jpg') no-repeat center center fixed; 
+ 
+    background-size: cover;
+    height: 100%;
+
+
+  } 
+  
+
+  
+

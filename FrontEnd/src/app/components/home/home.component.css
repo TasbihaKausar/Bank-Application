@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img{
+    background-image: url("../../../assets/homepage.jpg");
+    background-size: cover;
+    height: 100%;
+
+
+
+   
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+  
+
+
+
+.button{
+    margin-left: 200px;
+}
