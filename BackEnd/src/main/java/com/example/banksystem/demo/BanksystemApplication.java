@@ -14,11 +14,6 @@ public class BanksystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BanksystemApplication.class, args);
-<<<<<<< HEAD
-		System.out.println("Farzeen");
-=======
-		//System.com.println("Tasbiha Kausar");
->>>>>>> 6e0dd2e87ef4535bf9491bfa1d712e4153d6e94e
 	}
 	
 	@Bean
