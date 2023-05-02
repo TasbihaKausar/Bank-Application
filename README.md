@@ -1,44 +1,48 @@
 # Bank-Application
-This is a web-based application for managing bank accounts. The front-end is built with Angular and the back-end is built with Java Spring Boot. The application provides a user-friendly interface for customers to manage their accounts and perform various banking transactions.
+<p> This is a web-based application for managing bank accounts. The front-end is built with Angular and the back-end is built with Java Spring Boot. The application provides a user-friendly interface for customers to manage their accounts and perform various banking transactions.
+</p>
 
-Features:
-.Create accounts
-.View account balance
-.Deposit and withdraw money from accounts
-.Transfer money between accounts
-.Delete accounts
+<h2>Features:</h2>
+<ul>
+<li>Create accounts</li>
+<li>View account balance</li>
+<li>Deposit and withdraw money from accounts</li>
+<li>Transfer money between accounts</li>
+<li>Delete accounts</li>
+</ul>
 
-Technologies Used:
-.Angular
-.Java Spring Boot
-.MySQL
+<h2>Technologies Used:</h2>
+<li>Angula</li>
+<li>Java Spring Boot</li>
+<li>MySQL</li>
 
-Getting Started
+<h2>Getting Started</h2>
 
-Prerequisites:
-.Angular CLI
-.Java JDK
-.MySQL
+<h3>Prerequisites:</h3>
+<li>Angular CLI</li>
+<li>Java JDK</li>
+<li>MySQL</li>
 
-Installation
-1)Clone the repository
-git clone https://github.com/<username>/<repository>.git
+
+<h3>Installation</h3>
+<h4>1)Clone the repository</h4>
+git clone https://github.com/<username>/<repository>.git<br>
   
-2)Set up the database 
-3)Navigate to the front-end directory and install dependencies
-  cd frontend
-  npm install
+<h4>2)Set up the database </h4>
+<h4>3)Navigate to the front-end directory and install dependencies</h4>
+  cd frontend<br>
+  npm install<br>
   
-4)Start the front-end server
-  ng serve
+<h4>4)Start the front-end server</h4>
+  ng serve<br>
   
-5)Navigate to the back-end directory and run the application
-  cd ../backend
-./mvnw spring-boot:run
+<h4>5)Navigate to the back-end directory and run the application</h4>
+  cd ../backend<br>
+./mvnw spring-boot:run<br>
 
   
-Contributors:
-  .Tasbiha Kausar
+<h2>Contributor:</h2>
+  <li>Tasbiha Kausar</li>
 
 
 
